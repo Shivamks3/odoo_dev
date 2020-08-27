@@ -1,0 +1,65 @@
+{
+    'name': "Hospital Management",
+    'version': '11.0.1.0.0',
+    'depends': ['web', 'mail', 'base', 'sale', 'sale_stock', 'web_timeline'],
+    'sequence' : '8',
+    'website' : 'hospitalmanagement.com',
+    'author': "Shivam Singh",
+    'summary' : "This is Hospital management system",
+    'category': 'Extra Tools',
+    'licence' : 'AGPL-3',
+    'description': """
+    Module for managing Hospital Management.
+    """,
+    # data files always loaded at installation
+    'data': [
+        # 'wizards/create_appointment.xml',
+        # 'reports/sale_report_inherit.xml',
+        # 'reports/report.xml',
+        # 'views/patient.xml',
+        # 'views/doctor.xml',
+        # 'views/lab.xml',
+        # 'views/template.xml',
+        # 'data/cron.xml',
+        # 'data/sequence.xml',
+        # 'data/mail_template.xml',
+        # 'views/appointment.xml',
+        # #'views/item.xml',
+        # 'reports/patient_card.xml',
+        # 'data/data.xml',
+        # 'security/security.xml',
+        # #'views/mymodule_view.xml',
+
+        'security/security.xml',
+        'security/ir.model.access.csv',
+        'data/sequence.xml',
+        'data/data.xml',
+        'data/cron.xml',
+        'wizards/create_appointment.xml',
+        'views/patient.xml',
+        'views/appointment.xml',
+        'views/doctor.xml',
+        'views/lab.xml',
+        'views/website_form.xml',
+        'views/sale_order.xml',
+        'views/template.xml',
+        'views/settings.xml',
+        'views/dashboard.xml',
+        'views/server_action.xml',
+        'reports/patient_card.xml',
+        'reports/report.xml',
+        'reports/sale_report_inherit.xml',
+        'reports/appointment.xml',
+        'data/mail_template.xml',
+
+
+    ],
+    # data files containing optionally loaded demonstration data
+    'demo': [
+        #'demo/demo_data.xml',
+    ],
+    'Installation' : True,
+    'application' : True,
+    'auto_install' : False,
+
+}

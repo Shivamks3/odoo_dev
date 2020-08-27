@@ -1,0 +1,785 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* shivam_hospital
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0-20200812\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-27 04:26+0000\n"
+"PO-Revision-Date: 2020-08-27 04:26+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: shivam_hospital
+#: model:mail.template,body_html:shivam_hospital.patient_card_email_template
+msgid "<div style=\"margin: 0px; padding: 0px;\">\n"
+"                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"                        Dear ${object.patient_name}\n"
+"                        <br/><br/>\n"
+"                        Here is your patient card with reference ${object.name_seq}\n"
+"                        <br/><br/>\n"
+"                        Age : ${object.patient_age}\n"
+"                        Contact Number : ${object.name}\n"
+"                        <br/><br/>\n"
+"                        If you have queries feel free to ask.\n"
+"                    </p>\n"
+"                </div>\n"
+"            "
+msgstr "<div style=\"margin: 0px; padding: 0px;\">\n"
+"                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"                        Dear ${object.patient_name}\n"
+"                        <br/><br/>\n"
+"                        Here is your patient card with reference ${object.name_seq}\n"
+"                        <br/><br/>\n"
+"                        Age : ${object.patient_age}\n"
+"                        Contact Number : ${object.name}\n"
+"                        <br/><br/>\n"
+"                        If you have queries feel free to ask.\n"
+"                    </p>\n"
+"                </div>\n"
+"            "
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.report_patient
+msgid "<strong>Age: </strong>"
+msgstr "<strong>Age: </strong>"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.appointment_report
+msgid "<strong>Date </strong>"
+msgstr "<strong>Date </strong>"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.report_patient
+msgid "<strong>Group: </strong>"
+msgstr "<strong>Group: </strong>"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.appointment_report
+msgid "<strong>Name </strong>"
+msgstr "<strong>Name </strong>"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.appointment_report
+msgid "<strong>Notes </strong>"
+msgstr "<strong>Notes </strong>"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.report_patient
+msgid "<strong>Ph No: </strong>"
+msgstr "<strong>Ph No: </strong>"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.appointment_report
+msgid "<strong>Status </strong>"
+msgstr "<strong>Status </strong>"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.sale_report_inherit
+msgid "<strong>Test Report Customization:</strong>"
+msgstr "<strong>Test Report Customization:</strong>"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_patient_active
+msgid "Active"
+msgstr "Active"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_patient_age
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_patient_patient_age
+msgid "Age"
+msgstr "Age"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.patient_kanban
+msgid "Age :"
+msgstr "Age :"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_patient_patient_age2
+msgid "Age2"
+msgstr "Age2"
+
+#. module: shivam_hospital
+#: model:ir.actions.report,name:shivam_hospital.report_appointment
+#: model:ir.model,name:shivam_hospital.model_hospital_appointment
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_patient_appointment_count
+#: model:ir.ui.view,arch_db:shivam_hospital.appointment_pivot
+msgid "Appointment"
+msgstr "Appointment"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.appointment_calendar
+msgid "Appointment Calendar"
+msgstr "Appointment Calendar"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_create_appointment_appointment_date
+msgid "Appointment Date"
+msgstr "Appointment Date"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.appointment_graph
+msgid "Appointment Graph"
+msgstr "Appointment Graph"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_lines_appointment_id
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_name
+msgid "Appointment ID"
+msgstr "Appointment ID"
+
+#. module: shivam_hospital
+#: model:ir.model,name:shivam_hospital.model_hospital_appointment_lines
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_appointment_lines
+msgid "Appointment Lines"
+msgstr "Appointment Lines"
+
+#. module: shivam_hospital
+#: model:ir.model,name:shivam_hospital.model_report_shivam_hospital_appointment_report
+msgid "Appointment Report"
+msgstr "Appointment Report"
+
+#. module: shivam_hospital
+#: code:addons/shivam_hospital/models/patient.py:130
+#: model:ir.actions.act_window,name:shivam_hospital.action_appointment
+#: model:ir.actions.act_window,name:shivam_hospital.action_patient_appointments
+#: model:ir.actions.act_window,name:shivam_hospital.open_patient_appointments
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_doctor_appointment_ids
+#: model:ir.ui.menu,name:shivam_hospital.hospital_appointment
+#: model:ir.ui.view,arch_db:shivam_hospital.appointment_form
+#: model:ir.ui.view,arch_db:shivam_hospital.patient_form
+#, python-format
+msgid "Appointments"
+msgstr "Appointments"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.patient_kanban
+msgid "Avatar"
+msgstr "Avatar"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.appointment_tree
+msgid "Average Of Ages"
+msgstr "Average Of Ages"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.dashboard_form_view
+msgid "Book Appointment"
+msgstr "Book Appointment"
+
+#. module: shivam_hospital
+#: model:ir.actions.act_window,name:shivam_hospital.act_book_appointment
+msgid "Book Appointments"
+msgstr "Book Appointments"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_res_config_settings_module_crm
+msgid "CRM"
+msgstr "CRM"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.create_appointment_form
+msgid "Cancel"
+msgstr "Cancel"
+
+#. module: shivam_hospital
+#: selection:hospital.appointment,state:0
+msgid "Cancelled"
+msgstr "Cancelled"
+
+#. module: shivam_hospital
+#: model:ir.module.category,description:shivam_hospital.module_category_hospital
+msgid "Category For Hospital"
+msgstr "Category For Hospital"
+
+#. module: shivam_hospital
+#: model:ir.actions.server,name:shivam_hospital.test_patient_cron_ir_actions_server
+#: model:ir.cron,cron_name:shivam_hospital.test_patient_cron
+#: model:ir.cron,name:shivam_hospital.test_patient_cron
+msgid "Check Patient Status"
+msgstr "Check Patient Status"
+
+#. module: shivam_hospital
+#: model:ir.ui.menu,name:shivam_hospital.menu_hospital_configuration
+msgid "Configuration"
+msgstr "Configuration"
+
+#. module: shivam_hospital
+#: selection:hospital.appointment,state:0
+#: model:ir.ui.view,arch_db:shivam_hospital.appointment_form
+msgid "Confirm"
+msgstr "Confirm"
+
+#. module: shivam_hospital
+#: model:ir.model,name:shivam_hospital.model_res_partner
+msgid "Contact"
+msgstr "Contact"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.create_appointment_form
+msgid "Create"
+msgstr "Create"
+
+#. module: shivam_hospital
+#: model:ir.actions.act_window,name:shivam_hospital.create_appointment_wizard
+#: model:ir.ui.menu,name:shivam_hospital.create_appointment
+#: model:ir.ui.view,arch_db:shivam_hospital.create_appointment_form
+#: model:ir.ui.view,arch_db:shivam_hospital.patient_form
+msgid "Create Appointment"
+msgstr "Create Appointment"
+
+#. module: shivam_hospital
+#: model:ir.model,name:shivam_hospital.model_create_appointment
+msgid "Create Appointment Wizard"
+msgstr "Create Appointment Wizard"
+
+#. module: shivam_hospital
+#: model:ir.actions.act_window,help:shivam_hospital.action_patient
+msgid "Create First Item !"
+msgstr "Create First Item !"
+
+#. module: shivam_hospital
+#: model:ir.actions.act_window,help:shivam_hospital.action_appointment
+#: model:ir.actions.act_window,help:shivam_hospital.open_patient_appointments
+msgid "Create your First Appointment !"
+msgstr "Create your First Appointment !"
+
+#. module: shivam_hospital
+#: model:ir.actions.act_window,help:shivam_hospital.action_doctor
+msgid "Create your First Doctor !"
+msgstr "Create your First Doctor !"
+
+#. module: shivam_hospital
+#: model:ir.actions.act_window,help:shivam_hospital.action_lab
+msgid "Create your First Lab !"
+msgstr "Create your First Lab !"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_create_appointment_create_uid
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_create_uid
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_lines_create_uid
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_doctor_create_uid
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_lab_create_uid
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_patient_create_uid
+msgid "Created by"
+msgstr "Created by"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_create_appointment_create_date
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_create_date
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_lines_create_date
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_doctor_create_date
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_lab_create_date
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_patient_create_date
+msgid "Created on"
+msgstr "Created on"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_partner_id
+msgid "Customer"
+msgstr "Customer"
+
+#. module: shivam_hospital
+#: model:ir.actions.act_window,name:shivam_hospital.hospital_dashboard
+#: model:ir.ui.menu,name:shivam_hospital.menu_dashboard
+#: model:ir.ui.view,arch_db:shivam_hospital.dashboard_form_view
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_appointment_date
+msgid "Date"
+msgstr "Date"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_appointment_datetime
+msgid "Date Time"
+msgstr "Date Time"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_res_config_settings_note
+#: model:ir.ui.view,arch_db:shivam_hospital.res_config_settings_view_form
+msgid "Default Note"
+msgstr "Default Note"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.create_appointment_form
+msgid "Delete Patient"
+msgstr "Delete Patient"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_create_appointment_display_name
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_display_name
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_lines_display_name
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_doctor_display_name
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_lab_display_name
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_patient_display_name
+#: model:ir.model.fields,field_description:shivam_hospital.field_report_shivam_hospital_appointment_report_display_name
+#: model:ir.model.fields,field_description:shivam_hospital.field_report_shivam_hospital_report_patient_display_name
+#: model:ir.model.fields,field_description:shivam_hospital.field_report_shivam_hospital_report_patient_xls_display_name
+msgid "Display Name"
+msgstr "Display Name"
+
+#. module: shivam_hospital
+#: model:ir.actions.act_window,name:shivam_hospital.action_doctor
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_doctor_id
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_patient_doctor_id
+#: model:ir.ui.menu,name:shivam_hospital.hospital_doctor
+#: model:res.groups,name:shivam_hospital.group_hospital_doctor
+msgid "Doctor"
+msgstr "Doctor"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.patient_kanban
+msgid "Doctor :"
+msgstr "Doctor :"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_patient_doctor_gender
+msgid "Doctor Gender"
+msgstr "Doctor Gender"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.appointment_form
+msgid "Doctor Prescription"
+msgstr "Doctor Prescription"
+
+#. module: shivam_hospital
+#: model:ir.model,name:shivam_hospital.model_hospital_doctor
+msgid "Doctor Record"
+msgstr "Doctor Record"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.doctor_form
+#: model:ir.ui.view,arch_db:shivam_hospital.doctor_tree
+msgid "Doctors"
+msgstr "Doctors"
+
+#. module: shivam_hospital
+#: selection:hospital.appointment,state:0
+#: model:ir.ui.view,arch_db:shivam_hospital.appointment_form
+msgid "Done"
+msgstr "Done"
+
+#. module: shivam_hospital
+#: selection:hospital.appointment,state:0
+msgid "Draft"
+msgstr "Draft"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_patient_email_id
+msgid "Email"
+msgstr "Email"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.patient_kanban
+msgid "Email :"
+msgstr "Email :"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_appointment_date_end
+msgid "End Date"
+msgstr "End Date"
+
+#. module: shivam_hospital
+#: selection:hospital.doctor,gender:0
+#: selection:hospital.patient,doctor_gender:0
+#: selection:hospital.patient,gender:0
+#: model:ir.ui.view,arch_db:shivam_hospital.hospital_patient_search
+msgid "Female"
+msgstr "Female"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_doctor_gender
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_patient_gender
+#: model:ir.ui.view,arch_db:shivam_hospital.hospital_patient_search
+msgid "Gender"
+msgstr "Gender"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.create_appointment_form
+msgid "Get Data"
+msgstr "Get Data"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.hospital_patient_search
+msgid "Group By"
+msgstr "Group By"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.patients_page
+msgid "Hey Subscribe the channel .. !"
+msgstr "Hey Subscribe the channel .. !"
+
+#. module: shivam_hospital
+#: model:ir.ui.menu,name:shivam_hospital.hospital_root
+#: model:ir.ui.view,arch_db:shivam_hospital.res_config_settings_view_form
+msgid "Hospital"
+msgstr "Hospital"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.res_config_settings_view_form
+msgid "Hospital CRM"
+msgstr "Hospital CRM"
+
+#. module: shivam_hospital
+#: model:ir.model,name:shivam_hospital.model_hospital_lab
+msgid "Hospital Laboratory"
+msgstr "Hospital Laboratory"
+
+#. module: shivam_hospital
+#: model:ir.module.category,name:shivam_hospital.module_category_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.res_config_settings_view_form
+msgid "Hospital Management"
+msgstr "Hospital Management"
+
+#. module: shivam_hospital
+#: model:ir.actions.act_window,name:shivam_hospital.action_hospital_config_settings
+msgid "Hospital Settings"
+msgstr "Hospital Settings"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_create_appointment_id
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_id
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_lines_id
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_doctor_id
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_lab_id
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_patient_id
+#: model:ir.model.fields,field_description:shivam_hospital.field_report_shivam_hospital_appointment_report_id
+#: model:ir.model.fields,field_description:shivam_hospital.field_report_shivam_hospital_report_patient_id
+#: model:ir.model.fields,field_description:shivam_hospital.field_report_shivam_hospital_report_patient_xls_id
+msgid "ID"
+msgstr "ID"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_patient_image
+msgid "Image"
+msgstr "Image"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_sale_order_is_patient
+msgid "Is Patient"
+msgstr "Is Patient"
+
+#. module: shivam_hospital
+#: model:ir.actions.act_window,name:shivam_hospital.action_patient
+msgid "Item"
+msgstr "Item"
+
+#. module: shivam_hospital
+#: model:ir.actions.act_window,name:shivam_hospital.action_lab
+#: model:ir.ui.menu,name:shivam_hospital.hospital_lab
+#: model:ir.ui.view,arch_db:shivam_hospital.lab_form
+#: model:ir.ui.view,arch_db:shivam_hospital.lab_tree
+msgid "Lab"
+msgstr "Lab"
+
+#. module: shivam_hospital
+#: model:res.groups,name:shivam_hospital.group_hospital_lab_manager
+msgid "Lab Assistant Manager"
+msgstr "Lab Assistant Manager"
+
+#. module: shivam_hospital
+#: model:res.groups,name:shivam_hospital.group_hospital_lab
+msgid "Lab Assistant User"
+msgstr "Lab Assistant User"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_create_appointment___last_update
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment___last_update
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_lines___last_update
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_doctor___last_update
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_lab___last_update
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_patient___last_update
+#: model:ir.model.fields,field_description:shivam_hospital.field_report_shivam_hospital_appointment_report___last_update
+#: model:ir.model.fields,field_description:shivam_hospital.field_report_shivam_hospital_report_patient___last_update
+#: model:ir.model.fields,field_description:shivam_hospital.field_report_shivam_hospital_report_patient_xls___last_update
+msgid "Last Modified on"
+msgstr "Last Modified on"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_create_appointment_write_uid
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_lines_write_uid
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_write_uid
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_doctor_write_uid
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_lab_write_uid
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_patient_write_uid
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_create_appointment_write_date
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_lines_write_date
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_write_date
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_doctor_write_date
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_lab_write_date
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_patient_write_date
+msgid "Last Updated on"
+msgstr "Last Updated on"
+
+#. module: shivam_hospital
+#: selection:hospital.patient,age_group:0
+msgid "Major"
+msgstr "Major"
+
+#. module: shivam_hospital
+#: selection:hospital.doctor,gender:0
+#: selection:hospital.patient,doctor_gender:0
+#: selection:hospital.patient,gender:0
+#: model:ir.ui.view,arch_db:shivam_hospital.hospital_patient_search
+msgid "Male"
+msgstr "Male"
+
+#. module: shivam_hospital
+#: model:res.groups,name:shivam_hospital.group_hospital_manager
+msgid "Manager"
+msgstr "Manager"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_lines_product_id
+msgid "Medicine"
+msgstr "Medicine"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_res_config_settings_product_ids
+#: model:ir.ui.view,arch_db:shivam_hospital.res_config_settings_view_form
+msgid "Medicines"
+msgstr "Medicines"
+
+#. module: shivam_hospital
+#: selection:hospital.patient,age_group:0
+msgid "Minor"
+msgstr "Minor"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_doctor_name
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_lab_name
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_patient_name
+#: model:ir.ui.view,arch_db:shivam_hospital.patients_page
+msgid "Name"
+msgstr "Name"
+
+#. module: shivam_hospital
+#: code:addons/shivam_hospital/models/appointment.py:26
+#: code:addons/shivam_hospital/models/appointment.py:27
+#: code:addons/shivam_hospital/models/appointment.py:92
+#: code:addons/shivam_hospital/models/patient.py:125
+#: code:addons/shivam_hospital/models/patient.py:161
+#: code:addons/shivam_hospital/models/patient.py:162
+#, python-format
+msgid "New"
+msgstr "New"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_doctor_note
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_pharmacy_note
+msgid "Note"
+msgstr "Note"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_patient_notes
+msgid "Notes"
+msgstr "Notes"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.appointment_form
+msgid "Notify"
+msgstr "Notify"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_patient_user_id
+msgid "PRO"
+msgstr "PRO"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_create_appointment_patient_id
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_patient_id
+msgid "Patient"
+msgstr "Patient"
+
+#. module: shivam_hospital
+#: model:ir.actions.act_window,name:shivam_hospital.act_patient_appointments
+#: model:ir.ui.view,arch_db:shivam_hospital.dashboard_form_view
+msgid "Patient Appointments"
+msgstr "Patient Appointments"
+
+#. module: shivam_hospital
+#: model:ir.actions.report,name:shivam_hospital.report_patient_card
+msgid "Patient Card"
+msgstr "Patient Card"
+
+#. module: shivam_hospital
+#: model:mail.template,subject:shivam_hospital.patient_card_email_template
+msgid "Patient Card (Ref ${object.name_seq})"
+msgstr "Patient Card (Ref ${object.name_seq})"
+
+#. module: shivam_hospital
+#: model:ir.actions.report,name:shivam_hospital.report_patient_card_xlx
+msgid "Patient Card Excel"
+msgstr "Patient Card Excel"
+
+#. module: shivam_hospital
+#: model:mail.template,report_name:shivam_hospital.patient_card_email_template
+msgid "Patient Card_${(object.name_seq)}"
+msgstr "Patient Card_${(object.name_seq)}"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_patient_patient_name
+#: model:ir.model.fields,field_description:shivam_hospital.field_sale_order_patient_name
+msgid "Patient Name"
+msgstr "Patient Name"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_patient_patient_name_upper
+msgid "Patient Name Upper"
+msgstr "Patient Name Upper"
+
+#. module: shivam_hospital
+#: model:ir.model,name:shivam_hospital.model_hospital_patient
+msgid "Patient Record"
+msgstr "Patient Record"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.dashboard_form_view
+msgid "Patient Records"
+msgstr "Patient Records"
+
+#. module: shivam_hospital
+#: model:ir.model,name:shivam_hospital.model_report_shivam_hospital_report_patient
+msgid "Patient card Report"
+msgstr "Patient card Report"
+
+#. module: shivam_hospital
+#: model:ir.actions.act_window,name:shivam_hospital.act_patient_list
+#: model:ir.ui.menu,name:shivam_hospital.hospital_patient
+#: model:ir.ui.view,arch_db:shivam_hospital.patient_form
+#: model:ir.ui.view,arch_db:shivam_hospital.patient_tree
+#: model:ir.ui.view,arch_db:shivam_hospital.products
+msgid "Patients"
+msgstr "Patients"
+
+#. module: shivam_hospital
+#: code:addons/shivam_hospital/models/patient.py:50
+#: model:ir.actions.server,name:shivam_hospital.hospital_patient_action
+#, python-format
+msgid "Patients Server Action"
+msgstr "Patients Server Action"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.appointment_form
+msgid "Pharmacy"
+msgstr "Pharmacy"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.create_appointment_form
+#: model:ir.ui.view,arch_db:shivam_hospital.patient_form
+msgid "Print"
+msgstr "Print"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.patient_form
+msgid "Print Excel"
+msgstr "Print Excel"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_lines_product_qty
+msgid "Quantity"
+msgstr "Quantity"
+
+#. module: shivam_hospital
+#: model:ir.model,name:shivam_hospital.model_sale_order
+msgid "Quotation"
+msgstr "Quotation"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.appointment_form
+msgid "Record Set Operations"
+msgstr "Record Set Operations"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_notes
+msgid "Registration Note"
+msgstr "Registration Note"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_doctor_user_id
+msgid "Related User"
+msgstr "Related User"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_lab_user_id
+msgid "Responsible"
+msgstr "Responsible"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_order_id
+msgid "Sale Order"
+msgstr "Sale Order"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.hospital_patient_search
+msgid "Search Patients"
+msgstr "Search Patients"
+
+#. module: shivam_hospital
+#: model:ir.ui.view,arch_db:shivam_hospital.patient_form
+msgid "Send By Email"
+msgstr "Send By Email"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_lines_sequence
+msgid "Sequence"
+msgstr "Sequence"
+
+#. module: shivam_hospital
+#: model:ir.ui.menu,name:shivam_hospital.hospital_patient_server_action_menu
+msgid "Server Action"
+msgstr "Server Action"
+
+#. module: shivam_hospital
+#: model:ir.ui.menu,name:shivam_hospital.menu_hospital_settings
+msgid "Settings"
+msgstr "Settings"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_state
+msgid "Status"
+msgstr "Status"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_appointment_amount
+msgid "Total Amount"
+msgstr "Total Amount"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_patient_age_group
+msgid "age Group"
+msgstr "age Group"
+
+#. module: shivam_hospital
+#: code:addons/shivam_hospital/models/patient.py:91
+#, python-format
+msgid "age Must be Greater Than 5..!"
+msgstr "age Must be Greater Than 5..!"
+
+#. module: shivam_hospital
+#: model:ir.model.fields,field_description:shivam_hospital.field_hospital_patient_name_seq
+msgid "patient ID"
+msgstr "patient ID"
+
+#. module: shivam_hospital
+#: model:ir.model,name:shivam_hospital.model_report_shivam_hospital_report_patient_xls
+msgid "report.shivam_hospital.report_patient_xls"
+msgstr "report.shivam_hospital.report_patient_xls"
+
+#. module: shivam_hospital
+#: model:ir.model,name:shivam_hospital.model_res_config_settings
+msgid "res.config.settings"
+msgstr "res.config.settings"
+
